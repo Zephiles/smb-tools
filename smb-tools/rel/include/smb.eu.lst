@@ -6,7 +6,6 @@
 800CF2C8:OSFreeToHeap
 
 // OSCache.c
-// text
 800CFA88:DCFlushRange
 800CFB50:ICInvalidateRange
 
