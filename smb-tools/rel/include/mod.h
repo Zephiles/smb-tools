@@ -13,7 +13,6 @@ public:
 	void init();
 
 private:
-	void runMain();
 	bool performRelPatches(gc::OSModule::OSModuleInfo *, void *);
 	
 private:
