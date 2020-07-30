@@ -1,0 +1,24 @@
+// __mem.c
+80003320:memset
+
+// OSAlloc.c
+800C26CC:OSAllocFromHeap
+800C27C8:OSFreeToHeap
+
+// OSCache.c
+// text
+800C2F60:DCFlushRange
+800C3028:ICInvalidateRange
+
+// OSLink.c
+800C6B64:OSLink
+800C6F70:OSUnlink
+
+// global
+// data
+802F1B1C:charaHeapHandle
+802F1B20:backgroundHeapHandle
+802F1B24:stageHeapHandle
+802F1B28:subHeapHandle
+802F1B2C:mainHeapHandle
+802F1EDC:debugBitfield
