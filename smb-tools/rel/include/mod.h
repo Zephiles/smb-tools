@@ -9,14 +9,14 @@ namespace mod {
 class Mod
 {
 public:
-	Mod();
-	void init();
+    Mod();
+    void init();
 
 private:
-	bool performRelPatches(gc::OSModule::OSModuleInfo *, void *);
-	
+    bool performRelPatches(gc::OSModule::OSModuleInfo *, void *);
+    
 private:
-	bool (*mPFN_OSLink_trampoline)(gc::OSModule::OSModuleInfo *, void *) = nullptr;
+    bool (*mPFN_OSLink_trampoline)(gc::OSModule::OSModuleInfo *, void *) = nullptr;
 };
 
 }
